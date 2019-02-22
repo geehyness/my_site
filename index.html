@@ -16,7 +16,13 @@
   <style> .logo-size{width: 100px; height: auto; margin: auto;}
     .navbar{position: fixed; width: 100%; z-index: 9999; border-bottom: 1px solid #aaa;}
     #geenav, #geebanner, #div1, #div2, #div3, #div4, #geefooter2, #geefooter1, #geeheader, #geetext{display: none;}
-
+    #geebanner{
+      background-image: url("./assets/bg_big.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover
+    }
     /* Center the loader */
     #loader {
       position: absolute;
@@ -28,7 +34,7 @@
       margin: -75px 0 0 -75px;
       border: 16px solid #f3f3f3;
       border-radius: 50%;
-      border-top: 16px solid #888888;
+      border-top: 16px solid rgba(1,1,1,0);
       width: 120px;
       height: 120px;
       -webkit-animation: spin 2s linear infinite;
@@ -88,92 +94,94 @@
       </div>
     </div>
   </div>
-  <div id="div1" class="py-3"></div>
-  <div id="div2" class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="px-md-5 p-3 col-md-6 d-flex flex-column align-items-start justify-content-center" style="">
-          <h1>Who am I?</h1>
-          <p class="mb-3 lead">I AM GROOT! (I play games!)<br><br>I am Groot, I am Groot, I am Groot. (You will see me playing a lot of PUBG, GTA 5 and Forza Horizon 3.) I am Groot. (I might also play Sims 4.)<br><br>I am Groot. (I hope you are here to Subscribe, like and comment.)</p>
-        </div>
-        <div class="col-md-6"> <img class="img-fluid d-block" src="./assets/gh_c.png"> </div>
-      </div>
-    </div>
-  </div>
-  <div id="div3" class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="">Where to find me:</h1>
+  <div style="background-color: #fff;">
+    <div id="div1" class="py-3"></div>
+    <div id="div2" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="px-md-5 p-3 col-md-6 d-flex flex-column align-items-start justify-content-center" style="">
+            <h1>Who am I?</h1>
+            <p class="mb-3 lead">I AM GROOT! (I play games!)<br><br>I am Groot, I am Groot, I am Groot. (You will see me playing a lot of PUBG, GTA 5 and Forza Horizon 3.) I am Groot. (I might also play Sims 4.)<br><br>I am Groot. (I hope you are here to Subscribe, like and comment.)</p>
+          </div>
+          <div class="col-md-6"> <img class="img-fluid d-block" src="./assets/gh_c.png"> </div>
         </div>
       </div>
     </div>
-  </div>
-  <div id="div4" class="py-5">
-    <div class="container">
-      <div class="row text-center">
-        <div class="p-4 col-lg-4 col-md-6">
-          <a href="https://www.youtube.com/c/geehyness">
-            <img class="img-fluid d-block rounded-circle logo-size" src="assets/yt_pic.png">
-          </a>
-          <br>
-          <h4><b>Youtube</b></h4>
-          <p id="sub_count">100 000<br></p>
-          <p>subscribers</p>
-        </div>
-        <div class="p-4 col-lg-4 col-md-6">
-          <a href="https://www.instagram.com/geehyness">
-            <img class="img-fluid d-block rounded-circle logo-size" src="assets/ig_pic.png">
-          </a>
-          <br>
-          <h4><b>Instagram</b></h4>
-          <p id="ig_follow">2 000 000</p>
-          <p>followers</p>
-        </div>
-        <div class="p-4 col-lg-4">
-          <a href="https://twitter.com/GeeHyness">
-            <img class="img-fluid d-block rounded-circle logo-size" src="assets/tw_pic.png">
-          </a>
-          <br>
-          <h4><b>Twitter</b></h4>
-          <p id="tw_follow">1 000</p>
-          <p>followers</p>
+    <div id="div3" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="">Where to find me:</h1>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div id="geefooter1" class="bg-dark p-4">
-    <div class="container">
-      <div class="row">
-        <div class="p-0 col-lg-4 col-md-6">
-          <a href="https://www.youtube.com/c/geehyness"><img class="img-fluid" src="./assets/yt_sect.png"></a>
+    <div id="div4" class="py-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="p-4 col-lg-4 col-md-6">
+            <a href="https://www.youtube.com/c/geehyness">
+              <img class="img-fluid d-block rounded-circle logo-size" src="assets/yt_pic.png">
+            </a>
+            <br>
+            <h4><b>Youtube</b></h4>
+            <p id="sub_count">100 000<br></p>
+            <p>subscribers</p>
+          </div>
+          <div class="p-4 col-lg-4 col-md-6">
+            <a href="https://www.instagram.com/geehyness">
+              <img class="img-fluid d-block rounded-circle logo-size" src="assets/ig_pic.png">
+            </a>
+            <br>
+            <h4><b>Instagram</b></h4>
+            <p id="ig_follow">2 000 000</p>
+            <p>followers</p>
+          </div>
+          <div class="p-4 col-lg-4">
+            <a href="https://twitter.com/GeeHyness">
+              <img class="img-fluid d-block rounded-circle logo-size" src="assets/tw_pic.png">
+            </a>
+            <br>
+            <h4><b>Twitter</b></h4>
+            <p id="tw_follow">1 000</p>
+            <p>followers</p>
+          </div>
         </div>
-        <div class="col-md-5 align-self-center p-4 offset-md-1">
-          <h4>Stay linked</h4>
-          <p class="mb-4 text-primary">Subscribe to my youtube channel and follow my instagram and twitter.</p>
-          <div class="row text-center">
-            <div class="col-md-4 col-3">
-              <a href="https://www.youtube.com/c/geehyness" target="_blank"><i class="fa fa-youtube text-primary fa-2x"></i></a>
-            </div>
-            <div class="col-md-4 col-3">
-              <a href="https://www.instagram.com/geehyness" target="_blank"><i class="fa fa-instagram text-primary fa-2x"></i></a>
-            </div>
-            <div class="col-md-4 col-3">
-              <a href="https://twitter.com/GeeHyness" target="_blank"><i class="fa fa-twitter text-primary fa-2x"></i></a>
+      </div>
+    </div>
+    <div id="geefooter1" class="bg-dark p-4">
+      <div class="container">
+        <div class="row">
+          <div class="p-0 col-lg-4 col-md-6">
+            <a href="https://www.youtube.com/c/geehyness"><img class="img-fluid" src="./assets/yt_sect.png"></a>
+          </div>
+          <div class="col-md-5 align-self-center p-4 offset-md-1">
+            <h4>Stay linked</h4>
+            <p class="mb-4 text-primary">Subscribe to my youtube channel and follow my instagram and twitter.</p>
+            <div class="row text-center">
+              <div class="col-md-4 col-3">
+                <a href="https://www.youtube.com/c/geehyness" target="_blank"><i class="fa fa-youtube text-primary fa-2x"></i></a>
+              </div>
+              <div class="col-md-4 col-3">
+                <a href="https://www.instagram.com/geehyness" target="_blank"><i class="fa fa-instagram text-primary fa-2x"></i></a>
+              </div>
+              <div class="col-md-4 col-3">
+                <a href="https://twitter.com/GeeHyness" target="_blank"><i class="fa fa-twitter text-primary fa-2x"></i></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div id="geefooter2" class="bg-dark py-3">
-    <div class="container">
-      <div class="row d-flex justify-content-between">
-        <div class="col-lg-4 col-md-6">
-          <p class="text-secondary mb-0">Made with&nbsp;♡ by Highness Webz</p>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <p class="text-secondary mb-0">2019 - Be awesome!</p>
+    <div id="geefooter2" class="bg-dark py-3">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="col-lg-4 col-md-6">
+            <p class="text-secondary mb-0">Made with&nbsp;♡ by Highness Webz</p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <p class="text-secondary mb-0">2019 - Be awesome!</p>
+          </div>
         </div>
       </div>
     </div>
